@@ -28,5 +28,4 @@ button.addEventListener("click", () => {
   }
 
   counterElement.textContent = newText;
-  console.log("I have these thingies:", button, counterElement, counter);
 });
