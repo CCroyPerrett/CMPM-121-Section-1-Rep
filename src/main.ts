@@ -26,6 +26,6 @@ button.addEventListener("click", () => {
   for (let i = 0; i < counter; i++) {
     newText = newText + " 🐑";
   }
-
+  //insert comment here
   counterElement.textContent = newText;
 });
