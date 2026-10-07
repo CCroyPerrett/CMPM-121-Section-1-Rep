@@ -21,7 +21,7 @@ const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
   counter++;
-  let newText = counter.toString();
+  let newText = counter.toString() + "/n";
 
   for (let i = 0; i < counter; i++) {
     newText = newText + " 🐑";
